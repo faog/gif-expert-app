@@ -4,7 +4,12 @@ exports[`<GifGridItem /> Component should be render <GifGridItem /> 1`] = `
 <div
   className="card"
 >
-  <img />
-  <p />
+  <img
+    alt="Un titulo"
+    src="https://localhost/algo.jpg"
+  />
+  <p>
+    Un titulo
+  </p>
 </div>
 `;
