@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GifGrid /> Component should be show component 1`] = `
+<Fragment>
+  <h3>
+    Manzana
+  </h3>
+  <p>
+    loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`<GifGrid /> Component should be show items when useFetchGifs load  1`] = `
+<Fragment>
+  <h3>
+    Manzana
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Manzana"
+      url="https://localhost/Manzana.jpg"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Naranja"
+      url="https://localhost/Naranja.jpg"
+    />
+  </div>
+</Fragment>
+`;
